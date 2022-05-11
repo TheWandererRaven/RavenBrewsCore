@@ -14,12 +14,12 @@ This is the Core for the RavenCoffeeMod, so I can later work on similar mods ins
 [[dependencies.ravenbrewscore]]
     modId="forge"
     mandatory=true
-    versionRange="[37,)"
+    versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.ravenbrewscore]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1,1.18)"
+    versionRange="[1.18,)"
     ordering="NONE"
     side="BOTH"
