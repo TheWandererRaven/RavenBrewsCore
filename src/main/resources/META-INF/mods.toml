@@ -3,7 +3,7 @@ loaderVersion="[37,)"
 license="All rights reserved"
 [[mods]]
 modId="ravenbrewscore"
-version="1.0.0"
+version="1.0.1"
 displayName="Raven Brews Core"
 logoFile="ravenBrewsCoreLogo.png"
 credits="Credits to me, TheWandererRaven, cheers."
