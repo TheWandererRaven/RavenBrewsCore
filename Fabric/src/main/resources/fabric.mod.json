@@ -1,39 +1,42 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "ravenbrewscore",
     "version": "${version}",
   
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "name": "Raven Brews Core",
+    "description": "This is the Core for the RavenCoffeeMod, so I can later work on similar mods instead of packing everything in the same mod.",
     "authors": [
-      "Me!"
+      "The Wanderer Raven"
     ],
     "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
+      "homepage": "https://www.curseforge.com/minecraft/mc-mods/raven-brews-core",
+      "sources": "https://github.com/TheWandererRaven/RavenBrewsCore#readme"
     },
   
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
+    "license": "All rights reserved",
+    "icon": "assets/ravenbrewscore/RavenBrewsCoreLogo.png",
   
     "environment": "*",
     "entrypoints": {
       "main": [
-        "com.example.examplemod.ExampleMod"
+        "com.thewandererraven.ravenbrewscore.RavenBrewsCoreFabric"
+      ],
+      "client": [
+        "com.thewandererraven.ravenbrewscore.RavenBrewsCoreClient"
+      ],
+      "fabric-datagen": [
+        "com.thewandererraven.ravenbrewscore.RavenBrewsCoreDataGenerator"
       ]
     },
     "mixins": [
-      "modid.mixins.json"
+      "ravenbrewscore.mixins.json"
     ],
   
     "depends": {
       "fabricloader": ">=0.14",
       "fabric": "*",
-      "minecraft": "1.19.3",
+      "minecraft": "1.19.2",
       "java": ">=17"
-    },
-    "suggests": {
-      "another-mod": "*"
     }
   }
   

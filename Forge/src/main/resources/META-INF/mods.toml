@@ -5,9 +5,11 @@ license="All rights reserved"
     modId="ravenbrewscore"
     version="1.0.1"
     displayName="Raven Brews Core"
-    logoFile="ravenBrewsCoreLogo.png"
+    logoFile="RavenBrewsCoreLogo.png"
+    updateJSONURL="https://github.com/TheWandererRaven/RavenBrewsCore#readme"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/raven-brews-core"
     credits="Credits to me, TheWandererRaven, cheers."
-    authors="TheWandererRaven"
+    authors="The Wanderer Raven"
     description='''
     This is the Core for the RavenCoffeeMod, so I can later work on similar mods instead of packing everything in the same mod.
     '''

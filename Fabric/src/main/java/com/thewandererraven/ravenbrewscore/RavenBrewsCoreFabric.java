@@ -2,7 +2,7 @@ package com.thewandererraven.ravenbrewscore;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class RavenBrewsCoreFabric implements ModInitializer {
     
     @Override
     public void onInitialize() {
@@ -13,6 +13,6 @@ public class ExampleMod implements ModInitializer {
 
         // Use Fabric to bootstrap the Common mod.
         Constants.LOGGER.info("Hello Fabric world!");
-        Common.init();
+        RavenBrewsCommon.init();
     }
 }
