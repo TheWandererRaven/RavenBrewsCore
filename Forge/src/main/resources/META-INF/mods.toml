@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[37,)"
+loaderVersion="[45,)"
 license="Apache-2.0 license"
 issueTrackerURL="https://github.com/TheWandererRaven/RavenBrewsCore/issues"
 [[mods]]
@@ -17,7 +17,7 @@ issueTrackerURL="https://github.com/TheWandererRaven/RavenBrewsCore/issues"
 [[dependencies.ravenbrewscore]]
     modId="forge"
     mandatory=true
-    versionRange="[44,)"
+    versionRange="[45,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.ravenbrewscore]]
