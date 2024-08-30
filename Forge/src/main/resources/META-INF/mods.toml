@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="Apache-2.0 license"
+issueTrackerURL="https://github.com/TheWandererRaven/RavenBrewsCore/issues"
+[[mods]]
+    modId="ravenbrewscore"
+    version="1.0.1"
+    displayName="Raven Brews Core"
+    logoFile="RavenBrewsCoreLogo.png"
+    updateJSONURL="https://github.com/TheWandererRaven/RavenBrewsCore#readme"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/raven-brews-core"
+    credits="Credits to me, TheWandererRaven, cheers."
+    authors="The Wanderer Raven"
+    description='''
+    This is the Core for the RavenCoffeeMod, so I can later work on similar mods instead of packing everything in the same mod.
+    '''
+[[dependencies.ravenbrewscore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[46,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ravenbrewscore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,)"
+    ordering="NONE"
+    side="BOTH"
